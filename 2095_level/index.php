@@ -31,41 +31,9 @@ https://www.tooplate.com/view/2095-level
 </head>
 
     <body>
-        <div class="tm-main-content" id="top">
-            <div class="tm-top-bar-bg"></div>
-            <div class="tm-top-bar" id="tm-top-bar">
-                <!-- Top Navbar -->
-                <div class="container">
-                    <div class="row">
-                        
-                        <nav class="navbar navbar-expand-lg narbar-light">
-                            <a class="navbar-brand mr-auto" href="#">
-                                <img src="img/logo.png" alt="Site logo">
-                                Level
-                            </a>
-                            <button type="button" id="nav-toggle" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#mainNav" aria-expanded="false" aria-label="Toggle navigation">
-                                <span class="navbar-toggler-icon"></span>
-                            </button>
-                            <div id="mainNav" class="collapse navbar-collapse tm-bg-white">
-                                <ul class="navbar-nav ml-auto">
-                                  <li class="nav-item">
-                                    <a class="nav-link" href="#top">Home <span class="sr-only">(current)</span></a>
-                                  </li>
-                                  <li class="nav-item">
-                                    <a class="nav-link" href="#tm-section-4">Portfolio</a>
-                                  </li>
-                                  <li class="nav-item">
-                                    <a class="nav-link" href="#tm-section-5">Blog Entries</a>
-                                  </li>
-                                  <li class="nav-item">
-                                    <a class="nav-link" href="#tm-section-6">Contact Us</a>
-                                  </li>
-                                </ul>
-                            </div>                            
-                        </nav>            
-                    </div>
-                </div>
-            </div>
+       <?php
+       include_once 'header.php'
+       ?>
             <div class="tm-section tm-bg-img" id="tm-section-1">
                 <div class="tm-bg-white ie-container-width-fix-2">
                     <div class="container ie-h-align-center-fix">
@@ -365,16 +333,9 @@ https://www.tooplate.com/view/2095-level
                 </div>
             </div>
             
-            <footer class="tm-bg-dark-blue">
-                <div class="container">
-                    <div class="row">
-                        <p class="col-sm-12 text-center tm-font-light tm-color-white p-4 tm-margin-b-0">
-                        Copyright &copy; <span class="tm-current-year">2018</span> Your Company
-                        
-                        - Design: <a rel="nofollow" href="https://www.tooplate.com" class="tm-color-primary tm-font-normal" target="_parent">Tooplate</a></p>        
-                    </div>
-                </div>                
-            </footer>
+<?php
+include_once 'footer.php'
+?>
         </div>
         
         <!-- load JS files -->
